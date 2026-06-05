@@ -1,0 +1,39 @@
+@'
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated transfer data
+data/logs/*
+!data/logs/.gitkeep
+
+data/received/*
+!data/received/.gitkeep
+
+data/test_files/*.bin
+!data/test_files/.gitkeep
+
+# Assignment sheet, not part of public repo
+netprobe_donem_projesi_foyu_guncel.pdf
+
+# Report is not included for now
+report/*
+!report/.gitkeep
+NetProbe_Teknik_Rapor.*
+
+# Temporary files
+*.tmp
+*.log
+'@ | Set-Content -Encoding UTF8 .gitignore

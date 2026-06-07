@@ -1,5 +1,4 @@
-@'
-# Python cache
+﻿# Python cache
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -28,12 +27,10 @@ data/test_files/*.bin
 # Assignment sheet, not part of public repo
 netprobe_donem_projesi_foyu_guncel.pdf
 
-# Report is not included for now
+# Report
 report/*
-!report/.gitkeep
-NetProbe_Teknik_Rapor.*
+!report/NetProbe_Teknik_Rapor.pdf
 
 # Temporary files
 *.tmp
 *.log
-'@ | Set-Content -Encoding UTF8 .gitignore
